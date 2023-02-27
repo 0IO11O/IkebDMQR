@@ -11,15 +11,7 @@ body {
 }
 
 #blackhole {
-  position: absolute;
-  top: 48%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  border: 150px solid black;
-  animation: blackhole 13s infinite;
+
 
 }
 
