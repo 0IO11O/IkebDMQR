@@ -6,7 +6,7 @@ window.onload = function() {
 	logo.style.display = "block";
 	setTimeout(function() {
 		logo.style.opacity = "1";
-	}, 500);
+	}, 1000);
 
 	setTimeout(function() {
 		title.classList.remove("hidden");
@@ -14,5 +14,5 @@ window.onload = function() {
 
 	setTimeout(function() {
 		buttons.classList.remove("hidden");
-	}, 2500);
+	}, 4000);
 }
