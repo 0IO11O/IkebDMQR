@@ -1,0 +1,89 @@
+/* Default styles */
+
+#fade-in {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#logo {
+	display: block;
+	margin: 0 auto;
+}
+
+#title {
+	color: black;
+	font-size: 48px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.hidden {
+	opacity: 0;
+	transition: opacity 3s ease-in-out;
+}
+
+#buttons {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 10px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+	background-color: #f2f2f2;
+}
+
+.home-button {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.home-button:hover {
+	background-color: #3e8e41;
+}
+
+.images-button {
+	background-color: #008CBA;
+	color: white;
+}
+
+.images-button:hover {
+	background-color: #0072ad;
+}
+
+/* Mobile styles */
+
+@media screen and (max-width: 480px) {
+	#fade-in {
+		top: 30%;
+	}
+
+	#title {
+		font-size: 36px;
+		margin-top: 20px;
+	}
+
+	.hidden {
+		opacity: 1;
+	}
+	
+	#buttons {
+		margin-top: 20px;
+	}
+
+	.button {
+		display: block;
+		margin: 10px auto;
+	}
+}
