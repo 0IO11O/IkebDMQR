@@ -7,27 +7,24 @@
 	transform: translate(-50%, -50%);
 }
 
-#logo {
-	display: block;
-	margin: 0 auto;
+#title {
+  font-size: 48px;
 }
 
-#title {
-	color: black;
-	font-size: 48px;
-	text-align: center;
-	margin-top: 50px;
+#logo {
+  font-size: 64px;
 }
+
+.button {
+  font-size: 24px;
+}
+
 
 .hidden {
 	opacity: 0;
 	transition: opacity 3s ease-in-out;
 }
 
-#buttons {
-	margin-top: 50px;
-	text-align: center;
-}
 
 .button {
 	display: inline-block;
